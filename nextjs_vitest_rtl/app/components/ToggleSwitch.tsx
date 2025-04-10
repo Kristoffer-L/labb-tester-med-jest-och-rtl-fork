@@ -18,7 +18,7 @@ function ToggleSwitch({ initialState = false }: ToggleSwitchProps) {
 
 export default ToggleSwitch;
 
-// Skapa ett test för funktionen ToggleSwitch i ToggleSwitch.test.ts
+// Skapa ett test för funktionen ToggleSwitch i ToggleSwitch.test.tsx
   // rendererar komponenten korrekt
   // kontrollerar att knappen ändrar text när den klickas
 
