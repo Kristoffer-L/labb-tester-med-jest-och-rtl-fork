@@ -5,14 +5,22 @@
 // "Medium" om siffran är 30 till och med 50
 // "Unknown" om inget av ovan stämmer
 
-function howFast(number: number) {
-    //Din kod här
-
+export function howFast(number: number) {
+  //Din kod här
+  if (number <= 20) {
+    return "Slow";
+  } else if (number >= 30 && number <= 50) {
+    return "Medium";
+  } else if (number >= 100) {
+    return "Fast";
+  } else {
+    return "Unknown";
   }
-  
-  console.log(howFast(20)); // Ska logga "Slow"
-  console.log(howFast(50)); // Ska logga "Medium"
-  console.log(howFast(100)); // Ska logga "Fast"
-  console.log(howFast(25)); // Ska logga "Unknown"
+}
 
-  // Skriv en test för funktionen howFast i question2.test.ts
+console.log(howFast(20)); // Ska logga "Slow"
+console.log(howFast(50)); // Ska logga "Medium"
+console.log(howFast(100)); // Ska logga "Fast"
+console.log(howFast(25)); // Ska logga "Unknown"
+
+// Skriv en test för funktionen howFast i question2.test.ts
