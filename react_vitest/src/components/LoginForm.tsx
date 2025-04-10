@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-interface LoginFormProps {
+type LoginFormProps = {
     onSubmit?: (data: { email: string; password: string }) => void;
 }
 
