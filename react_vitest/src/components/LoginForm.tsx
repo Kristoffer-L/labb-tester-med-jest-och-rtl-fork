@@ -40,7 +40,7 @@ function LoginForm({ onSubmit }: LoginFormProps) {
 export default LoginForm
 
 
-// Skapa ett test för funktionen LoginForm i LoginForm.test.ts
+// Skapa ett test för funktionen LoginForm i LoginForm.test.tsx
     // kontrollerar att formuläret rendreras korrekt
     // kontrollerar att knappen har rätt text
     // kontrollerar att inputfälten ändras korrekt
